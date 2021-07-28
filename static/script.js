@@ -215,7 +215,7 @@ const startLogOutTimer = function () {
     if (time === 0) {
       clearInterval(timer);
       labelWelcome.textContent = 'Log in to get started';
-      containerApp.style.opacity = 0;
+      containerApp.classList.add('hide');
     }
 
     // Decrease 1s
@@ -249,7 +249,7 @@ btnLogin.addEventListener('click', function (e) {
     labelWelcome.textContent = `Welcome back, ${
       currentAccount.owner.split(' ')[0]
     }`;
-    containerApp.style.opacity = 100;
+    containerApp.classList.remove('hide');
 
     //Clear input fields
     inputLoginUsername.value = inputLoginPin.value = '';
@@ -340,7 +340,8 @@ btnClose.addEventListener('click', function (e) {
     //Delete the account
     accounts.splice(index, 1);
     //Hide the UI
-    containerApp.style.opacity = 0;
+    containerApp.classList.add('hide');
+
     labelWelcome.textContent = 'Log in to get started';
   }
 

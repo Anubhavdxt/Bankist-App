@@ -5,7 +5,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 62%;
   box-sizing: border-box;
 }
 
@@ -19,6 +19,7 @@ body {
 
 nav {
   display: flex;
+  /* flex-direction: column; */
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
@@ -81,15 +82,18 @@ nav {
 .app {
   position: relative;
   max-width: 100rem;
-  margin: 4rem auto;
+  margin: 3rem auto;
   display: grid;
   grid-template-columns: 4fr 3fr;
   grid-template-rows: auto repeat(3, 15rem) auto;
   gap: 2rem;
-
   /* NOTE This creates the fade in/out anumation */
-  opacity: 0;
   transition: all 1s;
+}
+
+/* To hide the UI */
+.hide {
+  display: none;
 }
 
 .balance {

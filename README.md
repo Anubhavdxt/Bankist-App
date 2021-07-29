@@ -37,22 +37,36 @@
 ## Lessons Learned 🖥️
 
 - **`DOM` manipulation**
-  - **`document object`** to manipulate the _HTML elements_
-  - **`querySelector() method`** to select the _HTML elements_
-  - **`addEventListener() method`** to listen the _button-clicks_
-  - **`classList property`** for the list of _class_ in an _HTML_ tag
-  - **`remove() method`** to remove a _class_ from _HTML_ tags
-  - **`add() method`** to add a _class_ to _HTML_ tags
-  - **`innerHTML property`** to manipulate the _HTML code_
-  - **`innerText property`** to change the _text_
+  - **`blur() method`** to select the _HTML elements_
+  - **`insertAdjacentHTML() method`** to insert some **html code**
+  - **`setInterval() method`** to set the timer after an interval of time
+  - **`clearInterval() method`** to clear the timer
+  - **`preventDefault() method`** to prevent the default behaviour
+- **`Array` Object**
+  - **`map() method`** to perform the given operation on each element of an array and return the produced array
+  - **`filter() method`** to filter the array elements on the basis of a given condition and return the produced array
+  - **`reduce() method`** to reduce the array to a single result after performing desired operations
+  - **`findIndex() method`** to find the index of an element in an array
+  - **`splice() method`** to make a slice of the array
+  - **`some() method`** to check if a condition is true for at least one element of the array
+- **`Date()` Object**
+  - **`new Date()`** to create a new current date
+  - **`toISOString() method`** to format the date to **ISO String**
 - **`Math` Object**
-  - **`random() method`** to generate the secret number from the given range
-  - **`trunc() method`** to make randomly generated numbers an integer
+  - **`round() method`** to round the number to its nearest integer
+  - **`abs() method`** to give the absolute value of a number
+- **`String` Object**
+  - **`split() method`** to split all the elements of the string into an array
+  - **`join() method`** to join all the elements of the array into a string
+  - **`toLowerCase() method`** to make all the letters of a string lowercase
+  - **`padStart() method`** to make a string of desired length by adding the given string from left/start
+  - **`padEnd() method`** to make a string of desired length by adding the given string from right/end
 - **`Internationalization` API**
-  - **`Intl namespace`**
-- **`localStorage` API**
-  - **`setItem() method`** to save _High Score_ data to **`localStorage`**
-  - **`getItem() method`** to retrieve _High Score_ data from **`localStorage`** on the start
+  - **`Intl namespace`** to use the **`Internationalization` API**
+  - **`NumberFormat() method`** to provide the format of _Currency_
+  - **`DateTimeFormat() method`** to provide the format of _Date & Time_
+  - **`format() method`** to format the _Currency, Date & Time_
+- **`?. optional chaining operator`** to first check if the property is present then perform the operation
 
 ## Optimizations 📊
 

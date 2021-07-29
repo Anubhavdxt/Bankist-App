@@ -1,6 +1,6 @@
 "use strict";
 
-//                <========== BANKIST APP ==========>                //
+// <========== BANKIST APP ==========> //
 
 // DATA
 const account1 = {

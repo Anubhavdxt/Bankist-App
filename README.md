@@ -30,9 +30,9 @@
 
 ## Screenshots 📸
 
-![Bankist App](views/bankist-app.jpg)
-
 ![Bankist App Login](views/bankist-app-login.jpg)
+
+![Bankist App](views/bankist-app.jpg)
 
 ## Lessons Learned 🖥️
 

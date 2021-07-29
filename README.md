@@ -2,14 +2,21 @@
 
 ![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)
 
+## User Details 👨‍🎓
+
+- Username: js  
+  Password: 1111
+- Username: jd  
+  Password: 2222
+
 ## Project Description 📑
 
-- This is a simple number guessing game to entertain people.
-- We need to guess a number in a range _**1-N**_.
-- We have the _**N/2**_ chances to guess the correct number.
-- We'll win on guessing the correct number within given chances.
-- We'll lose if all the given chances are used.
-- If we score higher than before then it'll become high score.
+- This is a minimal banking app for basic banking needs.
+- We need to login with registered credentials.
+- We can apply for loan and send money to another user.
+- We'll get the requested loan amount in some time.
+- We can close the account if we want to.
+- We'll be logged-out on being inactive for 2 minutes.
 
 ## License ✅
 
@@ -23,9 +30,9 @@
 
 ## Screenshots 📸
 
-![Bankist App](/views)
-![Bankist App](/views)
-![Bankist App](/views)
+![Bankist App](views/bankist-app.jpg)
+
+![Bankist App Login](views/bankist-app-login.jpg)
 
 ## Lessons Learned 🖥️
 
@@ -72,7 +79,7 @@ Go to the project directory
 Install live-server
 
 ```bash
-  npm install live-server
+  npm i live-server
 ```
 
 Start the server
@@ -112,9 +119,9 @@ For support, email anubhavdxt46@gmail.com.
 
 ## Acknowledgements 🙏
 
-- [Jonas Schmedtmann](https://www.udemy.com/user/jonasschmedtmann/) (Original Project)
+- [**_Jonas Schmedtmann_**](https://www.udemy.com/user/jonasschmedtmann/) (**_Original Project_**)
 - [Udemy](https://www.udemy.com)
 
 ## Authors 👨‍💻
 
-- [@Anubhavdxt](https://www.github.com/Anubhavdxt)
+- [**@Anubhavdxt**](https://www.github.com/Anubhavdxt)
